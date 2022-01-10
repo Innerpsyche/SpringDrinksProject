@@ -1,8 +1,10 @@
 # SpringDrinksProject
 Why are we doing this?
 - To create an API for managing drinks
+
 How I expected the challenge to go.
-- Good
+- I expected it to be challenging
+
 What went well? / What didn't go as planned?
 - All tests work but I did not manage to get full coverage 
 
