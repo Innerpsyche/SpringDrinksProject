@@ -82,7 +82,6 @@ public class Drink {
 		int result = 1;
 		result = prime * result + (alcoholic ? 1231 : 1237);
 		result = prime * result + amount;
-		result = prime * result + (int) (id ^ (id >>> 32));
 		result = prime * result + ((name == null) ? 0 : name.hashCode());
 		return result;
 	}
@@ -100,8 +99,6 @@ public class Drink {
 			return false;
 		if (amount != other.amount)
 			return false;
-		if (id != other.id)
-			return false;
 		if (name == null) {
 			if (other.name != null)
 				return false;
@@ -109,7 +106,8 @@ public class Drink {
 			return false;
 		return true;
 	}
-	
+
+
 
 }
 
