@@ -1,13 +1,10 @@
 # SpringDrinksProject
 Why are we doing this?
 - To create an API for managing drinks
-- 
 How I expected the challenge to go.
 - Good
-- 
 What went well? / What didn't go as planned?
-- Most tests work
-- I did not manage to get full coverage 
+- All tests work but I did not manage to get full coverage 
 
 Possible improvements for future revisions of the project.
 - Add more methods and fields
