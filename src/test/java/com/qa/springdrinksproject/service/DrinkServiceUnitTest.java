@@ -27,9 +27,12 @@ public class DrinkServiceUnitTest {
 		
 		Mockito.when(this.repo.save(input)).thenReturn(output);
 		
-		
 		assertEquals(output, this.service.create(input));
 		
 		Mockito.verify(this.repo, Mockito.times(1)).save(input);
+	}
+	@Test
+	public void getByIdTest() {
+		assertEquals(null, this.service.getById(1));
 	}
 }
